@@ -13,6 +13,9 @@ fun TataletakColumn(){
         top = 20.dp,
         start = 20.dp,
         end = 20.dp)) {
-
+        Text(text = "Kompeni1")
+        Text(text = "Kompeni2")
+        Text(text = "Kompeni3")
+        Text(text = "Kompeni4")
     }
 }
