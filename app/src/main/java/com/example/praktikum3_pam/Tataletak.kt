@@ -8,7 +8,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.material3.Text
 
 @Composable
-fun TataletakColumn(){
+fun TataletakColumn(modifier: Modifier){
     Column(modifier = Modifier.padding(
         top = 20.dp,
         start = 20.dp,
