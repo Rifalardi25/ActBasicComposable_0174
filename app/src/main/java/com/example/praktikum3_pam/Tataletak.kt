@@ -9,5 +9,10 @@ import androidx.compose.material3.Text
 
 @Composable
 fun TataletakColumn(){
+    Column(modifier = Modifier.padding(
+        top = 20.dp,
+        start = 20.dp,
+        end = 20.dp)) {
 
+    }
 }
