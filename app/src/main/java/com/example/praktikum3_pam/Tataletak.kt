@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.ui.text.style.LineHeightStyle.Alignment
+import androidx.compose.ui.Alignment
 
 @Composable
 fun TataletakColumn(modifier: Modifier){
@@ -70,4 +70,9 @@ fun TataletakColumnRow(modifier: Modifier) {
             Text(text = "Komponen3Baris2")
         }
     }
+}
+
+@Composable
+fun TataletakRowColumn(modififer: Modifier) {
+
 }
