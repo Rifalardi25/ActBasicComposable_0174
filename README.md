@@ -26,3 +26,8 @@
 
 ### Tampilan Tata Letak Column Row
 <img width="720" height="1280" alt="Screenshot_20261003_231042" src="https://github.com/user-attachments/assets/858a2386-7615-4988-83db-daebb126eac3" />
+
+---
+
+### Tampilan Tata Letak Box Column Row
+<img width="300"  alt="Screenshot_20261003_231127" src="https://github.com/user-attachments/assets/93ef9f2a-f4b2-4f94-8b7d-8104d3bc91ca" />
