@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.size
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.Modifier
@@ -46,6 +47,15 @@ fun Halamanlogin (modifier: Modifier) {
                 text = "Ini adalah halaman Login",
                 fontSize = 16.sp,
                 color = Color.White
+            )
+
+            Spacer(modifier = Modifier.height(30.dp))
+
+            Image(
+
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = "Logo UMY",
+                modifier = Modifier.size(130.dp)
             )
           }
       }
