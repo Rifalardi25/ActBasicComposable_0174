@@ -86,6 +86,22 @@ fun Halamanlogin (modifier: Modifier) {
                 fontWeight = FontWeight.Bold
             )
 
+            Spacer(modifier = Modifier.height(40.dp))
+
+            Image(
+                painter = painterResource(id = R.drawable.eren_y),
+                contentDescription = "Foto Bentuk Lingkaran",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(220.dp)
+                    .clip(CircleShape)
+                    .border(
+                        width = 4.dp,
+                        color = Color.White,
+                        shape = CircleShape
+                    )
+            )
+
           }
       }
 }
