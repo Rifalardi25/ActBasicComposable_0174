@@ -42,6 +42,11 @@ fun Halamanlogin (modifier: Modifier) {
                 color = Color.Blue
             )
 
+            Text(
+                text = "Ini adalah halaman Login",
+                fontSize = 16.sp,
+                color = Color.White
+            )
           }
       }
 }
