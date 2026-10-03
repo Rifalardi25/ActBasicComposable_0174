@@ -57,6 +57,23 @@ fun Halamanlogin (modifier: Modifier) {
                 contentDescription = "Logo UMY",
                 modifier = Modifier.size(130.dp)
             )
+
+            Spacer(modifier = Modifier.height(30.dp))
+
+            Text(
+                text = "Nama",
+                fontSize = 18.sp,
+                color = Color.Red,
+                fontWeight = FontWeight.Bold
+            )
+
+            Text(
+                text = "Muhammad Rifal Ardi Mustofa",
+                fontSize = 20.sp,
+                color = Color.Blue,
+                fontWeight = FontWeight.Bold
+            )
+
           }
       }
 }
