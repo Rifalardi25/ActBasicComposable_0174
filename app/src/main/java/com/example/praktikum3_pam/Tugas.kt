@@ -74,6 +74,15 @@ fun Halamanlogin (modifier: Modifier) {
                 fontWeight = FontWeight.Bold
             )
 
+            Spacer(modifier = Modifier.height(8.dp))
+
+            Text(
+                text = "20240140174",
+                fontSize = 28.sp,
+                color = Color.Black,
+                fontWeight = FontWeight.Bold
+            )
+
           }
       }
 }
